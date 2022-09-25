@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Vegetables</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- Bootstrap stylesheet -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+
+	<!-- css stylesheet -->
+	<link rel="stylesheet" type="text/css" href="css/buyVeg.css">	
+
+</head>
+<body>
+
+	<section id="item_sec">
+		<div class="container">
+			<h1 class="title"><b>Our Products</b></h1>
+			<div class="row">
+			<div class="card col-ml-4" style="width: 18rem;">
+  				<img class="card-img-top veg_img" src="images/potato.jpg" alt="vegetable">
+  				<div class="card-body">
+    				<h5 class="card-title">Potato</h5>
+    				<h6 class="price">1 Kg - ₹40</h6>
+    				<a href="#" class="btn btn-primary" onclick="order()">Buy Now</a>
+  				</div>
+			</div>
+			<div class="card col-ml-4" style="width: 18rem;">
+  				<img class="card-img-top fruit_img" src="images/onion.jpg" alt="fruits">
+  				<div class="card-body">
+    				<h5 class="card-title">Onion</h5>
+    				<h6 class="price">1 Kg - ₹50</h6>
+    				<a href="#" class="btn btn-primary" onclick="order()">Buy Now</a>
+  				</div>
+			</div>
+			<div class="card col-ml-4" style="width: 18rem;">
+  				<img class="card-img-top fruit_img" src="images/tomato.jpg" alt="fruits">
+  				<div class="card-body">
+    				<h5 class="card-title">Tomato</h5>
+    				<h6 class="price">1 Kg - ₹90</h6>
+    				<a href="#" class="btn btn-primary" onclick="order()">Buy Now</a>
+  				</div>
+			</div>
+			</div>
+
+			<div class="row">
+			<div class="card col-ml-4" style="width: 18rem;">
+  				<img class="card-img-top veg_img" src="images/ladyFinger.jpg" alt="vegetable">
+  				<div class="card-body">
+    				<h5 class="card-title">Lady Finger</h5>
+    				<h6 class="price">1 Kg - ₹100</h6>
+    				<a href="#" class="btn btn-primary" onclick="order()">Buy Now</a>
+  				</div>
+			</div>
+			<div class="card col-ml-4" style="width: 18rem;">
+  				<img class="card-img-top fruit_img" src="images/Fenugreek.jpg" alt="fruits">
+  				<div class="card-body">
+    				<h5 class="card-title">Fenugreek</h5>
+    				<h6 class="price">1 Item - ₹20</h6>
+    				<a href="#" class="btn btn-primary" onclick="order()">Buy Now</a>
+  				</div>
+			</div>
+			<div class="card col-ml-4" style="width: 18rem;">
+  				<img class="card-img-top fruit_img" src="images/brinjal.jpg" alt="fruits">
+  				<div class="card-body">
+    				<h5 class="card-title">Brinjal</h5>
+    				<h6 class="price">1 Kg - ₹40</h6>
+    				<a href="#" class="btn btn-primary" onclick="order()">Buy Now</a>
+  				</div>
+			</div>
+			</div>
+
+			<div class="row veg_last">
+			<div class="card col-ml-4" style="width: 18rem;">
+  				<img class="card-img-top veg_img" src="images/cabbage.jpg" alt="vegetable">
+  				<div class="card-body">
+    				<h5 class="card-title">Cabbage</h5>
+    				<h6 class="price">1 Item - ₹20</h6>
+    				<a href="#" class="btn btn-primary" onclick="order()">Buy Now</a>
+  				</div>
+			</div>
+			<div class="card col-ml-4" style="width: 18rem;">
+  				<img class="card-img-top fruit_img" src="images/capsicum.jpg" alt="fruits">
+  				<div class="card-body">
+    				<h5 class="card-title">Capsicum</h5>
+    				<h6 class="price">1 Kg - ₹90</h6>
+    				<a href="#" class="btn btn-primary" onclick="order()">Buy Now</a>
+  				</div>
+			</div>
+			<div class="card col-ml-4" style="width: 18rem;">
+  				<img class="card-img-top fruit_img" src="images/peans.jpg" alt="fruits">
+  				<div class="card-body">
+    				<h5 class="card-title">Peans</h5>
+    				<h6 class="price">1 Kg - ₹100</h6>
+    				<a href="#" class="btn btn-primary" onclick="order()">Buy Now</a>
+  				</div>
+			</div>
+			</div>
+
+			<div class="row">
+			<div class="card col-ml-4" style="width: 18rem;">
+  				<img class="card-img-top veg_img" src="images/cucumber.jpg" alt="vegetable">
+  				<div class="card-body">
+    				<h5 class="card-title">Cucumber</h5>
+    				<h6 class="price">1 Kg - ₹70</h6>
+    				<a href="#" class="btn btn-primary" onclick="order()">Buy Now</a>
+  				</div>
+			</div>
+			<div class="card col-ml-4" style="width: 18rem;">
+  				<img class="card-img-top fruit_img" src="images/garlic.jpg" alt="fruits">
+  				<div class="card-body">
+    				<h5 class="card-title">Garlic</h5>
+    				<h6 class="price">1 Kg - ₹50</h6>
+    				<a href="#" class="btn btn-primary" onclick="buyFruit()">Buy Now</a>
+  				</div>
+			</div>
+			<div class="card col-ml-4" style="width: 18rem;">
+  				<img class="card-img-top fruit_img" src="images/ginger.jpg" alt="fruits">
+  				<div class="card-body">
+    				<h5 class="card-title">Ginger</h5>
+    				<h6 class="price">1 Kg - ₹35</h6>
+    				<a href="#" class="btn btn-primary" onclick="order()">Buy Now</a>
+  				</div>
+			</div>
+			</div>
+
+			</div>
+				
+	</section>
+	<script type="text/javascript">
+		function order(){
+			window.location.href = "vegForm.html";
+		}
+	</script>
+</body>
+</html>
