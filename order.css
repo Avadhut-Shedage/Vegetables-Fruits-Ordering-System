@@ -1,0 +1,14 @@
+body{
+	text-align: center;
+}
+.title{
+	margin-top: 50px;
+	color: red;
+}
+.card{
+	margin-left: 170px;
+	margin-top: 80px;
+}
+.veg_img{
+	height: 170px;
+}
