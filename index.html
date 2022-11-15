@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Home</title>
+
+	<!-- Bootstrap stylesheet -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+	<!-- CSS styelsheet -->
+	<link rel="stylesheet" type="text/css" href="home.css">
+
+</head>
+<body>
+	<div class="row">
+		<div class="col-lg-2">
+			<img class="home_fruit_img" src="images/fruit_bg.png">
+		</div>
+		<div class="col-lg-2 system_name">
+			<h1 class="name1">Vegetables & Fruits</h1><br>
+			<h4 class="name2">ORDERING SYSTEM</h4>
+			<button type="button" class="btn btn-outline-dark btn-lg" onclick="order()">Order Now</button>
+		</div>
+	</div>
+
+	<script type="text/javascript">
+		function order(){
+			window.location.href = "order.html";
+		}
+	</script>
+</body>
+</html>
