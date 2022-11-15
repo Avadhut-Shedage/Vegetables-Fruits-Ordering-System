@@ -1,0 +1,25 @@
+body{
+	text-align: center;
+}
+.title{
+	margin-top: 50px;
+	color: red;
+}
+.card{
+	margin-left: 70px;
+	margin-top: 80px;
+	padding-bottom: 20px;
+}
+.veg_img{
+	height: 170px;
+}
+.fruit_img{
+	height: 170px;
+}
+.veg_last{
+	/*padding-bottom: 50px;*/
+}
+.price{
+	margin-top: -10px;
+	margin-bottom: 25px;
+}
